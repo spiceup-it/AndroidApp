@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#63EFF4"
+    tools:context=".ShareIntent">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:text="ANDROID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#6372F4"
+        android:typeface="serif"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Share it"
+        android:textSize="20sp"
+        android:drawableRight="@drawable/share"
+        android:id="@+id/shareit"
+        android:textColor="#ffffff"
+        android:background="#20b2aa"
+        android:layout_marginTop="40dp"
+        android:typeface="serif"/>
+
+</LinearLayout>
